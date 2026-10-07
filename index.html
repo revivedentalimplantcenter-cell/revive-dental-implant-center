@@ -206,6 +206,14 @@ footer{background:var(--ink);color:#9a9ca3;padding:60px 0 34px;font-size:13.5px}
 .copy{border-top:1px solid var(--line-light);padding-top:26px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12.5px}
 /* float */
 .wa-float{position:fixed;bottom:26px;right:26px;z-index:1500;width:60px;height:60px;border-radius:50%;background:#22a35b;display:grid;place-items:center;box-shadow:0 14px 34px rgba(34,163,91,.45);transition:transform .3s var(--ease)}
+/* real imagery */
+.brand-mark{border-radius:50%;overflow:hidden;padding:0}
+.brand-mark img{width:100%;height:100%;object-fit:cover;display:block}
+.doc-avatar{overflow:hidden;padding:0}
+.doc-avatar img{width:100%;height:100%;object-fit:cover;display:block}
+.about-frame img.doc{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.pane img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.foot-logo{width:54px;height:54px;border-radius:50%;object-fit:cover;margin-bottom:14px;border:1px solid var(--line-light);display:block}
 .wa-float:hover{transform:scale(1.1) rotate(6deg)}
 .wa-float svg{width:30px;height:30px;fill:#fff}
 /* responsive */
@@ -232,7 +240,7 @@ footer{background:var(--ink);color:#9a9ca3;padding:60px 0 34px;font-size:13.5px}
 <nav id="nav">
   <div class="wrap nav-in">
     <a class="brand" href="#top">
-      <span class="brand-mark">R</span>
+      <span class="brand-mark"><img src="images/logo.png" alt="Revive Dental & Implant Center logo"></span>
       <span><b>Revive Dental</b><small>&amp; Implant Center</small></span>
     </a>
     <div class="nav-links">
@@ -253,7 +261,7 @@ footer{background:var(--ink);color:#9a9ca3;padding:60px 0 34px;font-size:13.5px}
     <div>
       <span class="eyebrow rv">Karimnagar · Advanced Dentistry</span>
       <h1 class="rv d1">Revive your <em>smile,</em><br>restore your confidence.</h1>
-      <p class="lead rv d2">Precision implantology, aesthetic smile designing and complete dental care — led by Dr.&nbsp;Sushmitha Reddy, Periodontist &amp; Implant Specialist.</p>
+      <p class="lead rv d2">Specialist gum treatments, implants and complete dental care — led by Dr.&nbsp;Sushmitha Reddy, Periodontist &amp; Implant Specialist.</p>
       <div class="hero-cta rv d3">
         <a class="btn" href="#contact">Book Your Visit
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
@@ -267,7 +275,7 @@ footer{background:var(--ink);color:#9a9ca3;padding:60px 0 34px;font-size:13.5px}
     </div>
     <div class="hero-card rv d2">
       <div class="doc-chip">
-        <div class="doc-avatar">S</div>
+        <div class="doc-avatar"><img src="images/doctor.jpg" alt="Dr. Sushmitha Reddy"></div>
         <div><h3>Dr. Sushmitha Reddy</h3><p>Periodontist &amp; Implant Specialist</p></div>
       </div>
       <div class="hours">
@@ -284,13 +292,13 @@ footer{background:var(--ink);color:#9a9ca3;padding:60px 0 34px;font-size:13.5px}
 </header>
 
 <div class="marquee"><div class="marquee-track" id="marqueeTrack">
-  <span>Dental Implants</span><span>Smile Designing</span><span>Braces &amp; Aligners</span><span>Root Canal Treatment</span><span>Teeth Whitening</span><span>Full-Mouth Rehabilitation</span>
+  <span>Deep Cleaning for Swollen Gums</span><span>Tongue-Tie Release</span><span>Mandibular Tori Excision</span><span>Gum Recession Coverage</span><span>Immediate Implant Placement</span><span>Laser Gum Depigmentation</span>
 </div></div>
 <!-- ============ ABOUT ============ -->
 <section class="about" id="about">
   <div class="wrap about-grid">
     <div class="about-visual rv">
-      <div class="about-frame"><span class="big">R</span></div>
+      <div class="about-frame"><img class="doc" src="images/doctor.jpg" alt="Dr. Sushmitha Reddy — Periodontist & Implant Specialist"></div>
       <div class="about-badge"><b>Dr. Sushmitha Reddy</b><span>MDS Periodontics · Implant Specialist · Karimnagar</span></div>
     </div>
     <div class="about-copy">
@@ -315,49 +323,49 @@ footer{background:var(--ink);color:#9a9ca3;padding:60px 0 34px;font-size:13.5px}
     <div class="sec-head">
       <span class="kicker rv">Treatments</span>
       <h2 class="rv d1">Complete care, <em>under one roof.</em></h2>
-      <p class="rv d2">Six signature treatment lines — from replacing a single missing tooth to designing an entirely new smile.</p>
+      <p class="rv d2">Six signature treatment lines — from healing swollen gums to placing same-day implants.</p>
     </div>
     <div class="treat-grid">
       <div class="treat rv">
         <span class="num">01</span>
-        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 2v6M9 8h6l-1 4h-4L9 8zM10 12v3l-1 5h6l-1-5v-3"/><path d="M10 15h4"/></svg></div>
-        <h3>Dental Implants</h3>
-        <p>Permanent, natural-feeling replacements for missing teeth — from single implants to full-arch All-on-4/All-on-6 rehabilitation.</p>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4 14c2 3 5 5 8 5s6-2 8-5c-1 4-4 7-8 7s-7-3-8-7z"/><path d="M6 9c1-3 4-5 6-5s5 2 6 5"/></svg></div>
+        <h3>Deep Cleaning for Swollen Gums</h3>
+        <p>Therapeutic cleaning that calms inflamed, bleeding gums — bringing back firm, pink, healthy tissue within days.</p>
         <span class="tag">See results below</span>
       </div>
       <div class="treat rv d1">
         <span class="num">02</span>
-        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4 14c2 3 5 5 8 5s6-2 8-5c-1 4-4 7-8 7s-7-3-8-7z"/><path d="M6 9c1-3 4-5 6-5s5 2 6 5"/></svg></div>
-        <h3>Smile Designing &amp; Veneers</h3>
-        <p>Digitally planned smile makeovers — veneers, laminates and bonding crafted around your face, not a template.</p>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 3v18M5 8c2 2 4 3 7 3s5-1 7-3M5 16c2-2 4-3 7-3s5 1 7 3"/></svg></div>
+        <h3>Tongue-Tie Release</h3>
+        <p>A quick, precise release of the restrictive tongue tie — improving tongue movement, feeding and speech comfort.</p>
         <span class="tag">See results below</span>
       </div>
       <div class="treat rv d2">
         <span class="num">03</span>
-        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="6" y="3" width="12" height="18" rx="2"/><path d="M9 7h6M9 11h6M9 15h4"/></svg></div>
-        <h3>Braces &amp; Clear Aligners</h3>
-        <p>Metal, ceramic and invisible aligner options to straighten teeth at any age — with predictable, mapped-out movement.</p>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3 12c3-6 6-9 9-9s6 3 9 9c-3 6-6 9-9 9s-6-3-9-9z"/><path d="M9 12h6"/></svg></div>
+        <h3>Mandibular Tori Excision</h3>
+        <p>Gentle surgical removal of bony tori growths — for comfort, easier hygiene and a better denture fit.</p>
         <span class="tag">See results below</span>
       </div>
       <div class="treat rv">
         <span class="num">04</span>
         <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 3c-4 0-7 3-7 8 0 4 2 6 2 10h10c0-4 2-6 2-10 0-5-3-8-7-8z"/><path d="M12 3v18"/></svg></div>
-        <h3>Root Canal Treatment</h3>
-        <p>Single-visit, rotary endodontics that saves infected teeth painlessly — finished with aesthetic crowns.</p>
+        <h3>Gum Recession Coverage</h3>
+        <p>Advanced grafting techniques that cover exposed roots — reducing sensitivity and restoring your gumline.</p>
         <span class="tag">See results below</span>
       </div>
       <div class="treat rv d1">
         <span class="num">05</span>
-        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg></div>
-        <h3>Teeth Whitening</h3>
-        <p>Professional in-office whitening that lifts years of stains in a single sitting — safe for enamel, stunning in photos.</p>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 2v6M9 8h6l-1 4h-4L9 8zM10 12v3l-1 5h6l-1-5v-3"/><path d="M10 15h4"/></svg></div>
+        <h3>Immediate Implant Placement</h3>
+        <p>A new implant placed in the same visit as extraction — fewer surgeries, faster, natural-feeling tooth replacement.</p>
         <span class="tag">See results below</span>
       </div>
       <div class="treat rv d2">
         <span class="num">06</span>
-        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3 12c3-6 6-9 9-9s6 3 9 9c-3 6-6 9-9 9s-6-3-9-9z"/><circle cx="12" cy="12" r="3"/></svg></div>
-        <h3>Full-Mouth Rehabilitation</h3>
-        <p>Complete restoration of bite, function and aesthetics for worn, damaged or multiple missing teeth — planned to the millimetre.</p>
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg></div>
+        <h3>Laser Gum Depigmentation</h3>
+        <p>Painless laser lightening of dark, pigmented gums — for an even, naturally pink smile line.</p>
         <span class="tag">See results below</span>
       </div>
     </div>
@@ -370,15 +378,15 @@ footer{background:var(--ink);color:#9a9ca3;padding:60px 0 34px;font-size:13.5px}
     <div class="sec-head">
       <span class="kicker rv">Before · After</span>
       <h2 class="rv d1">Real transformations, <em>frame by frame.</em></h2>
-      <p class="rv d2">Drag the handle on any case to compare. Genuine patient results — shared with consent.</p>
+      <p class="rv d2">Every case animates automatically — drag the handle to take control. Genuine patient results, shared with consent.</p>
     </div>
     <div class="proc-tabs rv" id="procTabs">
-      <button class="proc-tab active" data-proc="implants">Dental Implants</button>
-      <button class="proc-tab" data-proc="smile">Smile Designing</button>
-      <button class="proc-tab" data-proc="ortho">Braces &amp; Aligners</button>
-      <button class="proc-tab" data-proc="rct">Root Canal + Crown</button>
-      <button class="proc-tab" data-proc="whitening">Teeth Whitening</button>
-      <button class="proc-tab" data-proc="fmr">Full-Mouth Rehab</button>
+      <button class="proc-tab active" data-proc="gum">Swollen Gums Cleaning</button>
+      <button class="proc-tab" data-proc="tongue">Tongue-Tie Release</button>
+      <button class="proc-tab" data-proc="tori">Tori Excision</button>
+      <button class="proc-tab" data-proc="recession">Gum Recession</button>
+      <button class="proc-tab" data-proc="implant">Immediate Implant</button>
+      <button class="proc-tab" data-proc="depigmentation">Gum Depigmentation</button>
     </div>
     <div id="galleryPanels" class="rv d1"><!-- panels injected by JS --></div>
     <p class="case-note">Every case above follows the same philosophy: <b>health first, aesthetics always.</b> Have a smile you'd like to transform? Bring it to us — the first consultation maps your options.</p>
@@ -494,15 +502,16 @@ footer{background:var(--ink);color:#9a9ca3;padding:60px 0 34px;font-size:13.5px}
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-brand">
+        <img class="foot-logo" src="images/logo.png" alt="Revive Dental & Implant Center logo">
         <b>Revive Dental &amp; Implant Center</b>
         <p style="max-width:320px">Advanced, aesthetic, painless dentistry in Karimnagar — led by Dr. Sushmitha Reddy, Periodontist &amp; Implant Specialist.</p>
       </div>
       <div>
         <h5>Treatments</h5>
-        <a href="#treatments">Dental Implants</a>
-        <a href="#treatments">Smile Designing</a>
-        <a href="#treatments">Braces &amp; Aligners</a>
-        <a href="#treatments">Root Canal Treatment</a>
+        <a href="#treatments">Swollen Gums Cleaning</a>
+        <a href="#treatments">Tongue-Tie Release</a>
+        <a href="#treatments">Tori Excision</a>
+        <a href="#treatments">Immediate Implants</a>
       </div>
       <div>
         <h5>Clinic</h5>
@@ -540,42 +549,33 @@ const mt=document.getElementById('marqueeTrack');mt.innerHTML+=mt.innerHTML;
 document.querySelectorAll('.faq').forEach(f=>f.addEventListener('click',()=>{document.querySelectorAll('.faq.open').forEach(o=>o!==f&&o.classList.remove('open'));f.classList.toggle('open')}));
 
 /* ============ BEFORE/AFTER GALLERY ============
-   6 procedures x 2 cases. To add real images later, replace the
-   placeholder div content: put <img src="..."> inside .pane.before
-   and .pane.after (add style="width:100%;height:100%;object-fit:cover"). */
+   Real patient cases. Each slider auto-plays: the divider sweeps
+   across every 3 seconds; touching it hands control to the visitor. */
 const PROCEDURES={
-  implants:{name:'Dental Implants',cases:[
-    {t:'Full-arch implant rehabilitation',d:'Complete upper arch restored with implants'},
-    {t:'Single implant crown',d:'Missing molar replaced — looks & feels natural'}]},
-  smile:{name:'Smile Designing & Veneers',cases:[
-    {t:'Veneer smile makeover',d:'8 porcelain veneers — shade, shape, symmetry'},
-    {t:'Bonding & contouring',d:'Chipped, uneven teeth reshaped in one visit'}]},
-  ortho:{name:'Braces & Clear Aligners',cases:[
-    {t:'Aligner correction',d:'Crowding resolved — no wires, no brackets'},
-    {t:'Ceramic braces finish',d:'14-month journey to a confident smile'}]},
-  rct:{name:'Root Canal + Crown',cases:[
-    {t:'Molar saved with RCT',d:'Infected tooth preserved with ceramic crown'},
-    {t:'Front-tooth RCT & crown',d:'Discoloured tooth restored to natural shade'}]},
-  whitening:{name:'Teeth Whitening',cases:[
-    {t:'In-office whitening',d:'Multiple shades brighter in one sitting'},
-    {t:'Whitening + polish',d:'Stain removal with enamel-safe protocol'}]},
-  fmr:{name:'Full-Mouth Rehabilitation',cases:[
-    {t:'Complete smile rebuild',d:'Worn dentition restored — bite, form, aesthetics'},
-    {t:'Implant-supported rehab',d:'Multiple missing teeth, full function restored'}]}
+  gum:{name:'Deep Cleaning for Swollen Gums',cases:[
+    {img:['images/gum-cleaning-before.jpg','images/gum-cleaning-after.jpg'],t:'Swollen, bleeding gums restored',d:'Deep cleaning & gum therapy — firm, pink gums in days'}]},
+  tongue:{name:'Tongue-Tie Release',cases:[
+    {img:['images/tongue-tie-before.jpg','images/tongue-tie-after.jpg'],t:'Tongue-tie released',d:'Improved tongue movement, feeding & speech comfort'}]},
+  tori:{name:'Mandibular Tori Excision',cases:[
+    {img:['images/tori-before.jpg','images/tori-after.jpg'],t:'Bony tori growth removed',d:'Smooth, comfortable floor of mouth — easier hygiene'}]},
+  recession:{name:'Gum Recession Coverage',cases:[
+    {img:['images/recession-before.jpg','images/recession-after.jpg'],t:'Exposed root covered',d:'Gum grafting — less sensitivity, restored gumline'}]},
+  implant:{name:'Immediate Implant Placement',cases:[
+    {img:['images/implant-before.jpg','images/implant-after.jpg'],t:'Tooth replaced in one visit',d:'Immediate implant placed right after extraction'}]},
+  depigmentation:{name:'Laser Gum Depigmentation',cases:[
+    {img:['images/depigmentation-before.jpg','images/depigmentation-after.jpg'],t:'Dark gums lightened',d:'Laser depigmentation — even, naturally pink gums'}]}
 };
 const panels=document.getElementById('galleryPanels');
 Object.entries(PROCEDURES).forEach(([key,p],pi)=>{
   const div=document.createElement('div');
   div.className='proc-panel'+(pi===0?' active':'');div.dataset.proc=key;
-  p.cases.forEach((c,ci)=>{
+  p.cases.forEach((c)=>{
     div.insertAdjacentHTML('beforeend',
-    `<div class="compare" data-case="${key}-${ci+1}">
-       <div class="pane before"><span class="plabel">Before</span><span class="dashed"></span>
-         <div class="ph">Case ${ci+1}<small>Before photo — coming soon</small></div></div>
-       <div class="pane after"><span class="plabel">After</span><span class="dashed"></span>
-         <div class="ph">Case ${ci+1}<small>After photo — coming soon</small></div></div>
+    `<div class="compare" data-case="${key}">
+       <div class="pane before"><img src="${c.img[0]}" alt="${c.t} — before treatment"><span class="plabel">Before</span></div>
+       <div class="pane after"><img src="${c.img[1]}" alt="${c.t} — after treatment"><span class="plabel">After</span></div>
        <div class="cmp-handle"><div class="cmp-knob">⟷</div></div>
-       <div style="position:absolute;bottom:16px;left:22px;z-index:6;font-size:13px;color:#e8e9ec;text-shadow:0 1px 8px rgba(0,0,0,.6)"><b>${c.t}</b><br><span style="color:#b9bcc3">${c.d}</span></div>
+       <div style="position:absolute;bottom:16px;left:22px;right:22px;z-index:6;font-size:13px;color:#e8e9ec;text-shadow:0 1px 8px rgba(0,0,0,.65)"><b>${c.t}</b><br><span style="color:#cfd1d7">${c.d}</span></div>
      </div>`);
   });
   panels.appendChild(div);
@@ -596,6 +596,24 @@ document.querySelectorAll('.compare').forEach(cmp=>{
   cmp.addEventListener('pointermove',e=>{if(drag)move(e.clientX)});
   cmp.addEventListener('pointerup',()=>drag=false);
   cmp.addEventListener('pointercancel',()=>drag=false);
+});
+/* auto-play: the divider sweeps across every 3 seconds.
+   Touching a slider pauses its auto-play; it resumes after 6s idle.
+   Sliders only animate while visible on screen. */
+document.querySelectorAll('.compare').forEach(cmp=>{
+  const after=cmp.querySelector('.pane.after'),handle=cmp.querySelector('.cmp-handle');
+  const SWEEP='1.4s cubic-bezier(.22,1,.36,1)';
+  const set=p=>{after.style.clipPath=`inset(0 0 0 ${p}%)`;handle.style.left=p+'%'};
+  let showAfter=false,timer=null,idleT=null;
+  const sweep=()=>{showAfter=!showAfter;set(showAfter?94:6)};
+  const play=()=>{stop();timer=setInterval(sweep,3000)};
+  const stop=()=>{if(timer){clearInterval(timer);timer=null}};
+  after.style.transition=`clip-path ${SWEEP}`;handle.style.transition=`left ${SWEEP}`;
+  cmp.addEventListener('pointerdown',()=>{stop();after.style.transition='none';handle.style.transition='none';clearTimeout(idleT)},{capture:true});
+  const armIdle=()=>{clearTimeout(idleT);idleT=setTimeout(()=>{after.style.transition=`clip-path ${SWEEP}`;handle.style.transition=`left ${SWEEP}`;play()},6000)};
+  cmp.addEventListener('pointerup',armIdle);
+  cmp.addEventListener('pointercancel',armIdle);
+  new IntersectionObserver(es=>es.forEach(e=>{e.isIntersecting?play():stop()}),{threshold:.25}).observe(cmp);
 });
 </script>
 </body>
